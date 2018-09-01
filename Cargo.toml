@@ -1,0 +1,6 @@
+[package]
+name = "hyper-coin"
+version = "0.1.0"
+authors = ["pjt3591oo <pjt3591oo@gmail.com>"]
+
+[dependencies]
