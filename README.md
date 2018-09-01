@@ -7,13 +7,24 @@ Hyper-chain is a BlockChain platform that is useful for ***Scalability*** and **
 ```
 ├── README.md
 ├── blockchain
-│   ├── block
 │   ├── channel
-│   ├── state
-│   └── transaction
+│   ├── block
+│   ├── transaction
+│   └── state
 ├── consensus
 ├── network
 ├── restAPI
 └── utils
 ```
+
+# state management point
+
+* ```Public State```
+**Public State** stores state on to all peers(nodes)
+
+* ```Private State```
+**Private State** stores state on specific peers(nodes)
+
+* ```Channel State```
+**Channel State** store the state to the peers joined to the channel
 
