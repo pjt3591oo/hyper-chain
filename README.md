@@ -1,5 +1,7 @@
 # hyper-chain
 
+**hycon transp(f)er chain**
+
 Hyper-chain is a BlockChain platform that is useful for ***Scalability*** and ***Data Management***. this platform is offered as a ***Direct Installation*** and as a ***Docker Base***.
 
 # project directory structure
@@ -17,9 +19,7 @@ Hyper-chain is a BlockChain platform that is useful for ***Scalability*** and **
 └── utils
 ```
 
-# state management point
-
-
+# state(data) management point
 
 * ```Public State```
 
@@ -32,3 +32,11 @@ Hyper-chain is a BlockChain platform that is useful for ***Scalability*** and **
 * ```Private State```
 
   **Private State** stores state on specific peers(nodes)
+
+# node type
+
+* ```data peer node```
+
+* ```file peer node```
+
+* ``` manager peer node```
